@@ -1,0 +1,9 @@
+{
+  "buildCommand": "cd frontend && npm run build",
+  "outputDirectory": "frontend/dist",
+  "env": {
+    "VITE_API_URL": "@vite_api_url",
+    "VITE_STRIPE_PUBLISHABLE_KEY": "@vite_stripe_key",
+    "VITE_OPENAI_API_KEY": "@vite_openai_key"
+  }
+}

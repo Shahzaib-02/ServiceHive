@@ -1,0 +1,11 @@
+{
+  "name": "servicehive",
+  "version": "1.0.0",
+  "description": "ServiceHive - Service Booking Platform",
+  "private": true,
+  "scripts": {
+    "build": "cd frontend && npm run build",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev"
+  }
+}
