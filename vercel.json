@@ -1,5 +1,5 @@
 {
-  "buildCommand": "cd frontend && npm run dev",
+  "buildCommand": "cd frontend && npm run build",
   "outputDirectory": "frontend/dist",
   "env": {
     "VITE_API_URL": "https://servicehive-z1wy.onrender.com",
