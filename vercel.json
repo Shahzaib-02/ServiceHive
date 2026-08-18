@@ -2,8 +2,8 @@
   "buildCommand": "cd frontend && npm run build",
   "outputDirectory": "frontend/dist",
   "env": {
-    "VITE_API_URL": "@vite_api_url",
-    "VITE_STRIPE_PUBLISHABLE_KEY": "@vite_stripe_key",
-    "VITE_OPENAI_API_KEY": "@vite_openai_key"
+    "VITE_API_URL": "https://servicehive-z1wy.onrender.com",
+    "VITE_STRIPE_PUBLISHABLE_KEY": "pk_test_51TSmB9FhOTFrDGomLIgeR99guLjN1nKcbH6s8TkESe3hqtTgcBMURTbEucL4GDxw1sr6kXkmLkgycGNsH5R0OQwM00rK0YxtaA",
+    "VITE_OPENAI_API_KEY": "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"
   }
 }
