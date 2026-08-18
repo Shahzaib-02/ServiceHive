@@ -1,6 +1,7 @@
 {
-  "buildCommand": "cd frontend && npm run build",
+  "buildCommand": "npm --prefix=frontend run build",
   "outputDirectory": "frontend/dist",
+  "installCommand": "npm --prefix=frontend install",
   "env": {
     "VITE_API_URL": "https://servicehive-z1wy.onrender.com",
     "VITE_STRIPE_PUBLISHABLE_KEY": "pk_test_51TSmB9FhOTFrDGomLIgeR99guLjN1nKcbH6s8TkESe3hqtTgcBMURTbEucL4GDxw1sr6kXkmLkgycGNsH5R0OQwM00rK0YxtaA",
